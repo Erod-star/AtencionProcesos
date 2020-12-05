@@ -1,11 +1,10 @@
-
-function imprimir(){
-    console.log(
-        `
-        ciclos vacios ${vacio},
-        procesos atendidos ${atendido},
-        procesos pendientes ${size}
-        `
-    );
-    console.log(util.inspect(inicio,false, null, true));
-}
+// C R E A C I O N  D E  T A R E A
+class Tarea {
+    constructor(tarea){
+        this.tarea = tarea;
+        this.ciclo = Math.floor(Math.random() * (15 - 3)) + 3;
+        this.siguiente = null;
+    }
+  }
+  
+  exports.default = Tarea;
