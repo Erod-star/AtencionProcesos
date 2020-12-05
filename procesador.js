@@ -1,4 +1,4 @@
-const Proceso = require('./tarea').default;
+const Tarea = require('./procesos').default;
 
 // E S T A B L E C E R  P R O C E S A D O R
 let Procesador = () => {
