@@ -1,5 +1,6 @@
 const Proceso = require('./tarea').default;
 
+// E S T A B L E C E R  P R O C E S A D O R
 let Procesador = () => {
     let inicio = null;
     let tamaño = 0;
@@ -7,6 +8,7 @@ let Procesador = () => {
     let vacio = 0;
     let ultimo = null;
 
+// A Ñ A D I R  T A R E A
     const creacionTarea = (tarea) => {
         if (inicio == null) {
             inicio = tarea;
